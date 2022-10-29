@@ -26,7 +26,7 @@ export default class Board {
     }
   };
 
-  spinSquare() {
+  public spinSquare() {
     for (let index = 0; index < this.totalSquares; index++) {
       this.squares[index].spinFigure()
     }
